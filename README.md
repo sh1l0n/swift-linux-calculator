@@ -1,5 +1,5 @@
 # SwiftCalculatorGtk
-A simple 'calcultor' app showing how to do customize widgets and manage a Grid using SwiftGTK https://github.com/rhx/SwiftGtk
+A simple 'calculator' app showing how to do customize widgets and manage a Grid using SwiftGTK https://github.com/rhx/SwiftGtk
 
 ## Building
 Make sure you have all the prerequisites installed (see below).  After that, you can simply clone this repository and build the command line executable (be patient, this will download all the required dependencies and take a while to compile) using
@@ -10,7 +10,7 @@ Make sure you have all the prerequisites installed (see below).  After that, you
 	
 After that, you can run the program using
 
-	.build/debug/Calcultor
+	.build/debug/Calculator
 
 A simple, calculator window should appear.  To exit the program, click the close button or press Control-C in the Terminal window.
 
@@ -20,7 +20,7 @@ On macOS, you can build the project using Xcode instead.  To do this, you need t
 
 
 	./xcodegen.sh
-	open CryptoList.xcodeproj
+	open Calculator.xcodeproj
 
 After that, select the executable target (not the Bundle/Framework target with the same name as the executable) and use the (usual) Build and Run buttons to build/run your project.
 
