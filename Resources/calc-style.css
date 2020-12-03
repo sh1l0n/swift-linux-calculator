@@ -1,0 +1,62 @@
+.calc-grid {
+        background: #8e8e8e;
+}
+.calc-button-number, .calc-button-ope-gray, .calc-button-ope-orange {
+        border: none;
+        border-radius: 0px;
+        font-size: 16px;
+        font-family: "Lucida Console", Courier, monospace;
+}
+.calc-button-number{
+        color: #000000;
+        background: #e0e0e0;
+}
+.calc-button-number:active {
+        background: #bababa;
+}
+.calc-button-number:disabled {
+        color: #000000;
+        background: #ffffff;
+}
+.calc-button-ope-gray {
+        color: #000000;
+        background: #b8b7b5;
+}
+.calc-button-ope-gray:active {
+        background: #969592;
+}
+.calc-button-ope-gray:disabled {
+        color: #000000;
+        background: #cdcccb;
+}
+.calc-button-ope-orange {
+        color: #e0e0e0;
+        background: #f59234;
+}
+.calc-button-ope-orange:active {
+        background: #d16a0a;
+}
+.calc-button-ope-orange:disabled {
+        color: #000000;
+        background: #f8b06d;
+}
+.calc-display-area {
+        background: #4c4c4c;
+}
+.calc-display-label-24, .calc-display-label-12, .calc-display-label-8 {
+        color: #ffffff;
+        font-size: 24px;
+        padding: 10px 4px 10px 4px; 
+        font-family: "Lucida Console", Courier, monospace;
+}
+.calc-display-label-24 {
+        font-size: 24px;
+}
+.calc-display-label-12 {
+        font-size: 12px;
+        padding: 16.5px 4px 16.5px 4px; 
+}
+.calc-display-label-8 {
+        font-size: 8px;
+        padding: 18.5px 4px 18.5px 4px; 
+}
