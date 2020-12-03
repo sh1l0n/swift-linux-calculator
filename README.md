@@ -1,6 +1,10 @@
 # SwiftCalculatorGtk
 A simple 'calculator' app showing how to do customize widgets and manage a Grid using SwiftGTK https://github.com/rhx/SwiftGtk
 
+<p align="center"> 
+<img src="readme-images/swift-linux-calculator.png">
+</p>
+
 ## Building
 Make sure you have all the prerequisites installed (see below).  After that, you can simply clone this repository and build the command line executable (be patient, this will download all the required dependencies and take a while to compile) using
 
